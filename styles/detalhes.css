@@ -1,0 +1,111 @@
+#main{
+    min-height: 90.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-detalhes{
+    border-radius: 10px;
+}
+
+.container-detalhes > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: rgb(67, 67, 67);
+    display: flex;
+    justify-content: start;
+}
+
+.container-avaliacoes{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.container-avaliacoes > span{
+    color: yellow;
+    font-size: 1rem;
+}
+
+.container-detalhes > p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    color: rgb(67, 67, 67);
+    display: flex;
+    justify-content: start;
+}
+
+#container-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 250, 236);
+    margin-bottom: 1.5rem;
+}
+
+#container-table > span{
+    margin-right: 20px;
+}
+
+#container-table > h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px 0px 10px 0px;
+}
+
+.container-numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.container-numbers > div{
+    border-radius: 50%;
+    border: 1px solid rgb(255, 214, 131);
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.container-precos{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.container-precos > div{
+    border-top: 1px solid rgb(255, 214, 131);
+    border-bottom: 1px solid rgb(255, 214, 131);
+    padding: 15px 0px 5px 0px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-info{
+    text-align: start;
+}
+
+.container-info > h1{
+    font-size: 1.3rem;
+}
+
+.container-especificacoes > h1{
+    font-size: 1.3rem;
+}
+
+.container-linhas > h1{
+    border-top: 1px solid rgb(255, 214, 131);
+    padding: 7px 0px 0px 0px;
+    font-size: 12px;
+}

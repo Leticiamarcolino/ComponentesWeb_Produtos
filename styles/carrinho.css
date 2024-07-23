@@ -1,0 +1,41 @@
+#main{
+    min-height: 90.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.celula{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.img{
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.container-qtd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-frete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-frete > div{
+    display: flex;
+}
+
+.container-submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

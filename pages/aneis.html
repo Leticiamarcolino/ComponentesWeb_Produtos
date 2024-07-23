@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Joalheria</title>
+    <link rel="stylesheet" href="../styles/aliancas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="main">
+        <div id="container-main" style="margin-top: 2rem;">
+          <h1>Anéis</h1>
+
+          <div class="content">
+            <div class="container-filtros">
+              <div>
+                <h1 style="font-size: 1.3rem;">Filtro</h1>
+                <label for="customRange1" class="form-label">Valor até: R$ 500.00</label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <hr>
+              <div style="margin-top: 1rem;">
+                <h1 style="font-size: 1.3rem;">Ordenar Por</h1>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    A - Z
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Z - A
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    Maior Valor
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    Menor Valor
+                  </label>
+                </div>
+              </div>
+              <hr>
+              <a href="#" class="btn btn-primary button-comprar" style="width: 100%; height: 2.2rem;">Aplicar</a>
+            </div>
+
+          <div class="container-produtos">
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-aro-duplo-redondo-azul-safira.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Formatura Prata Aro Duplo Redondo</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  335 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 279.90</p>
+                <p class="card-text desconto">POR: R$ 237.92</p>
+                <p class="card-text">10X DE R$23,79 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-aro-duplo-gota-verde-esmeralda.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Formatura Prata Aro Duplo Gota</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  84 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 269.90</p>
+                <p class="card-text desconto">POR: R$ 229.42</p>
+                <p class="card-text">10X DE R$22,94 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-aro-duplo-navete-vermelho-rubi.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Formatura Prata Aro Duplo Navete</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  181 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 269.90</p>
+                <p class="card-text desconto">POR: R$ 229.42</p>
+                <p class="card-text">10X DE R$22,94 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-oval-entrelacado-rosa-turmalina.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Formatura Prata Oval Entrelaçado</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  120 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 259.90</p>
+                <p class="card-text desconto">POR: R$ 220.92</p>
+                <p class="card-text">10X DE R$22,09 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-solitario-prata-pedra-branca.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Solitário Prata Pedra Branca</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  69 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 159.90</p>
+                <p class="card-text desconto">POR: R$ 151.91</p>
+                <p class="card-text">10X DE R$15,19 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-noivado-estasi-ouro-18k_1.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Noivado Estasi Ouro 18K</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  41 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 2049.90</p>
+                <p class="card-text desconto">POR: R$ 1537.43</p>
+                <p class="card-text">10X DE R$153,74 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-ouro-18k-aro-duplo-navete-vermelho-rubi.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Alianças Casamento Linha Classic Ouro 3mm Abaulada Polida</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  67 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1779.90</p>
+                <p class="card-text desconto">POR: R$ 1423.92</p>
+                <p class="card-text">10X DE R$142,39 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-ouro-18k-aro-duplo-gota-verde-esmeralda.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Formatura Ouro 18K Aro Duplo Gota</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  67 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1619.90</p>
+                <p class="card-text desconto">POR: R$ 1295.92</p>
+                <p class="card-text">10X DE R$129,59 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-noivado-ouro-18k_golden-line.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Noivado Ouro 18K Golden Line</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  28 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1579.90</p>
+                <p class="card-text desconto">POR: R$ 1184.93</p>
+                <p class="card-text">10X DE R$118,49 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-solitario-ouro-18k-pedra-branca_1.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Anel Solitário Ouro 18K Pedra Branca</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  8 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1099.90</p>
+                <p class="card-text desconto">POR: R$ 824.93</p>
+                <p class="card-text">10X DE R$82,49 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </main>
+</body>
+</html>

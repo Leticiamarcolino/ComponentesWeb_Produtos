@@ -1,0 +1,53 @@
+#main{
+    min-height: 90.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#main > div{
+    background-color: rgb(246, 246, 246);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container-progresso{
+    width: 70vw;
+    transform: translateX(10%);
+}
+
+.container-fases{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+}
+
+.container-fases > h1{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.container-form{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(148, 148, 148);
+}
+
+.container-form > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: rgb(67, 67, 67);
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.buttonConfirma{
+    width: 5rem;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Joalheria</title>
+    <link rel="stylesheet" href="../styles/aliancas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="main">
+        <div id="container-main" style="margin-top: 2rem;">
+          <h1>Colares</h1>
+
+          <div class="content">
+            <div class="container-filtros">
+              <div>
+                <h1 style="font-size: 1.3rem;">Filtro</h1>
+                <label for="customRange1" class="form-label">Valor até: R$ 500.00</label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <hr>
+              <div style="margin-top: 1rem;">
+                <h1 style="font-size: 1.3rem;">Ordenar Por</h1>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    A - Z
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Z - A
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    Maior Valor
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    Menor Valor
+                  </label>
+                </div>
+              </div>
+              <hr>
+              <a href="#" class="btn btn-primary button-comprar" style="width: 100%; height: 2.2rem;">Aplicar</a>
+            </div>
+
+          <div class="container-produtos">
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colar-com-pingente-coracao-6mm-ouro-18k.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar com Pingente Coração 6mm Ouro 18K</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  33 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 979.90</p>
+                <p class="card-text desconto">POR: R$ 783.92</p>
+                <p class="card-text">10X DE R$78,39 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/e/s/escapulario-prata-livrai-nos-do-mal.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Escapulário Prata Livrai-nos do Mal</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  35 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 239.90</p>
+                <p class="card-text desconto">POR: R$ 203.92</p>
+                <p class="card-text">10X DE R$20,39 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colar-prata-coracoes-entrelacados.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Prata Corações Entrelaçados</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-symbols-outlined">star_half</span>
+                  32 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 199.90</p>
+                <p class="card-text desconto">POR: R$ 189.91</p>
+                <p class="card-text">10X DE R$18,99 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colar-prata-ponto-de-luz-com-pedras-brancas-e-pedra-verde.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Prata Ponto de Luz com Pedras Brancas e Pedra Verde</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-symbols-outlined">star_half</span>
+                  25 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 169.90</p>
+                <p class="card-text desconto">POR: R$ 161.41</p>
+                <p class="card-text">10X DE R$16,14 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/e/s/escapulario-ouro-18k-livrai-nos-do-mal.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Escapulário Ouro 18K Livrai-nos do Mal</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-symbols-outlined">star_half</span>
+                  23 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1959.90</p>
+                <p class="card-text desconto">POR: R$ 1567.92</p>
+                <p class="card-text">10X DE R$156,79 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colaramorinfinitoouro18kthumb_2.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Amor Infinito Ouro 18k 45 cm</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  12 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1159.90</p>
+                <p class="card-text desconto">POR: R$ 927.92</p>
+                <p class="card-text">10X DE R$92,79 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/e/s/escapulario-de-prata-sagrado-coracao-de-jesus-e-nossa-senhora-do-carmo.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Escapulário de Prata Sagrado Coração de Jesus e Nossa Senhora do Carmo</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  8 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 289.90</p>
+                <p class="card-text desconto">POR: R$ 246.42</p>
+                <p class="card-text">10X DE R$24,64 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colar-prata-infinito-com-pedras-brancas.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Prata Infinito com Pedras Brancas</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  20 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 209.90</p>
+                <p class="card-text desconto">POR: R$ 199.41</p>
+                <p class="card-text">10X DE R$19,94 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colarouro18kpontodeluzpedrabranca_7.jpg?quality=100" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Ouro 18K Ponto de Luz Pedra Branca 45 cm</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  5 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 1019.90</p>
+                <p class="card-text desconto">POR: R$ 866.92</p>
+                <p class="card-text">10X DE R$86,69 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card container-card" style="width: 12rem; max-height: 24rem;">
+              <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colar-prata-coracao-com-pedras-brancas-e-pedra-lilas.jpg" class="card-img-top" alt="...">
+              <div class="card-body container-details">
+                <h5 class="card-title">Colar Prata Coração com Pedras Brancas e Pedra Lilás</h5>
+                <div class="container-avaliacoes">
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  <span class="material-icons">grade</span>
+                  7 Avaliações
+                </div>
+                <p class="card-text">DE: R$ 219.90</p>
+                <p class="card-text desconto">POR: R$ 208.91</p>
+                <p class="card-text">10X DE R$20,89 SEM JUROS</p>
+                <a href="#" class="btn btn-primary button-comprar">Comprar</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </main>
+</body>
+</html>
