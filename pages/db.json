@@ -1,0 +1,96 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/l/aliancas-namoro-prata-linha-classic-2mm-abaulada-polida.jpg?quality=100",
+      "titulo": "Alianças Namoro Prata Linha Classic 2mm Abaulada Polida",
+      "avaliacoes": 298,
+      "preco_antigo": 249.9,
+      "preco_novo": 199.9,
+      "parcelamento": "10X DE R$19,99 SEM JUROS"
+    },
+    {
+      "id": 2,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-noivado-estasi-ouro-18k_1.jpg?quality=100",
+      "titulo": "Anel Noivado Estasi Ouro 18K",
+      "avaliacoes": 41,
+      "preco_antigo": 2049.9,
+      "preco_novo": 1537.43,
+      "parcelamento": "10X DE R$153,74 SEM JUROS"
+    },
+    {
+      "id": 3,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/b/r/brincos-ouro-18k-vj1476_01.jpg?quality=100",
+      "titulo": "Brincos Ouro 18K Pedra Branca 6mm",
+      "avaliacoes": 1,
+      "preco_antigo": 549.9,
+      "preco_novo": 329.94,
+      "parcelamento": "10X DE R$32,99 SEM JUROS"
+    },
+    {
+      "id": 4,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colarouro18kpontodeluzpedrabranca_7.jpg?quality=100",
+      "titulo": "Colar Ouro 18K Ponto de Luz Pedra Branca 45 cm",
+      "avaliacoes": 5,
+      "preco_antigo": 1019.9,
+      "preco_novo": 866.92,
+      "parcelamento": "10X DE R$86,69 SEM JUROS"
+    },
+    {
+      "id": 5,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/p/u/pulseiraselosachatadoslargosouro18kthumb_1.jpg?quality=100",
+      "titulo": "Pulseira Elos Achatados Largos Ouro 18K",
+      "avaliacoes": 5,
+      "preco_antigo": 2699.9,
+      "preco_novo": 2159.92,
+      "parcelamento": "10X DE R$215,99 SEM JUROS"
+    }
+  ],
+  "mais_visualizados": [
+    {
+      "id": 1,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/l/aliancas-namoro-loveways-3-5mm-quadradas-diamantadas.jpg?quality=100",
+      "titulo": "Alianças Namoro Loveways 3,5mm Quadradas Diamantadas",
+      "avaliacoes": 380,
+      "preco_antigo": 279.9,
+      "preco_novo": 209.93,
+      "parcelamento": "10X DE R$20,99 SEM JUROS"
+    },
+    {
+      "id": 2,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-aro-duplo-redondo-azul-safira.jpg?quality=100",
+      "titulo": "Anel Formatura Prata Aro Duplo Redondo",
+      "avaliacoes": 335,
+      "preco_antigo": 279.9,
+      "preco_novo": 237.92,
+      "parcelamento": "10X DE R$23,79 SEM JUROS"
+    },
+    {
+      "id": 3,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/v/j/vj5953thumb.jpg?quality=100",
+      "titulo": "Brincos Ouro 18K Pedra Branca 3mm",
+      "avaliacoes": 33,
+      "preco_antigo": 289.9,
+      "preco_novo": 173.94,
+      "parcelamento": "10X DE R$17,39 SEM JUROS"
+    },
+    {
+      "id": 4,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/e/s/escapulario-prata-livrai-nos-do-mal.jpg",
+      "titulo": "Escapulário Prata Livrai-nos do Mal",
+      "avaliacoes": 35,
+      "preco_antigo": 239.9,
+      "preco_novo": 203.92,
+      "parcelamento": "10X DE R$20,39 SEM JUROS"
+    },
+    {
+      "id": 5,
+      "imagem": "https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/v/j/vj9762thumb.jpg?quality=100",
+      "titulo": "Pulseira Recém Nascido Com Corações Vazados Ouro 18K",
+      "avaliacoes": 31,
+      "preco_antigo": 619.9,
+      "preco_novo": 495.92,
+      "parcelamento": "10X DE R$49,59 SEM JUROS"
+    }
+  ]
+}

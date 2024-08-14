@@ -1,45 +1,45 @@
 .container-produtos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card {
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .img-produto {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .img-produto img {
-    max-width: 100%;
-    max-height: 150px;
+  max-width: 100%;
+  max-height: 150px;
 }
 
 .card-body {
-    padding: 10px;
+  padding: 10px;
 }
 
 .price {
-    text-decoration: line-through;
-    color: #999;
+  text-decoration: line-through;
+  color: #999;
 }
 
 .discount {
-    color: #e60000;
-    font-weight: bold;
+  color: #e60000;
+  font-weight: bold;
 }
 
 .installment {
-    color: #666;
+  color: #666;
 }
 
 .reviews {
-    color: #999;
-    font-size: 0.9em;
+  color: #999;
+  font-size: 0.9em;
 }
